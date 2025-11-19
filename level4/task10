@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    double res, x;
+    char op;
+
+    cin >> res;
+
+    while (cin >> op) {
+        if (op == 'q') break;
+
+        cin >> x;
+
+        if (op == '+') res += x;
+        else if (op == '-') res -= x;
+        else if (op == '*') res *= x;
+        else if (op == '/' && x != 0) res /= x;
+
+        cout << res << endl;
+    }
+}
