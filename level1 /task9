@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int s;
+    cout << "saniyeni daxil et:";
+    cin >> s;
+    int a = s / 3600; 
+    int b = (s%3600) / 60;
+    int c = s % 60;
+    cout << a << "saat;" << b << "deqiqe;" << c << "saniye" << endl;
+    return 0;
+}
+

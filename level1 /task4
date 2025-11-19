@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    const float pi=3.14;
+    float r;
+    cout << "radiusu daxil edin:";
+    cin >> r ;
+    cout << "sahe=" << pi*r*r << endl;
+    cout << "cevre=" << 2*pi*r << endl;
+    return 0;
+}

@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a,b,c;
+    cout << "ededleri daxil et:";
+    cin >> a >> b >> c ;
+    cout << "ededlerin ortalamasi=" << (a+b+c)/3 << endl;
+    return 0;
+}

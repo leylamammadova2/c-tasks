@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int a;
+    cout << "terefi daxil et:";
+    cin >> a;
+    cout << "perimetr=" << 4*a << endl;
+    cout << "sahe=" << a*a << endl;
+    return 0;
+}

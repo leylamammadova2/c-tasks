@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int a, b, x;
+    cout << "Birinci ededi daxil edin: ";
+    cin >> a;
+    cout << "Ikinci ededi daxil edin: ";
+    cin >> b;
+    x = a;
+    a = b;
+    b = x;
+    cout << "Yerleri deyisdikden sonra:";
+    cout << "a = " << a << endl;
+    cout << "b = " << b << endl;
+    return 0;
+}

@@ -1,0 +1,9 @@
+#include <iostream>
+using namespace std;
+int main() {
+string x;
+cout << "adi daxil et:";
+cin >> x;
+cout << "salam," << x << "!" << endl;
+return 0;
+}
