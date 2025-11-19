@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int a;
+    cout << "ededi daxil et:";
+    cin >> a;
+    if (a > 0)
+    cout << "eded musbetdir";
+    else if (a < 0)
+    cout << "eded menfidir";
+    else
+    cout << "eded sifira beraberdir";
+
+    return 0;
+}

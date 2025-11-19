@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int a,b;
+    cout << "ededleri daxil et:";
+    cin >> a >> b;
+
+    if (a > b)
+    cout << "boyuk eded=" << a;
+    else if (a < b)
+    cout << "boyuk eded=" << b;
+    else
+    cout << "ededler beraberdir";
+    
+    return 0;
+}
