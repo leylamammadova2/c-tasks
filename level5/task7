@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+void k (int a) {
+    if (a > 0)
+        cout << "eded musbetdir" << endl;
+    else if (a < 0)
+        cout << "eded menfidir" << endl;
+    else
+        cout << "eded sifira beraberdir" << endl;
+}
+int main() {
+    int a;
+    cout << "ededi daxil et: ";
+    cin >> a;
+    k(a);
+    return 0;
+}

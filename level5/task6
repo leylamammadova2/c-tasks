@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+char qiy(int bal) {
+    if (bal >= 0 && bal <= 50) return 'F';
+    else if (bal <= 60) return 'E';
+    else if (bal <= 70) return 'D';
+    else if (bal <= 80) return 'C';
+    else if (bal <= 90) return 'B';
+    else return 'A';
+}
+int main() {
+    int a;
+    cout << "bali daxil et: ";
+    cin >> a;
+    cout << qiy(a) << endl;
+    return 0;
+}

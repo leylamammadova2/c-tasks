@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+void k(string ad) {
+    cout << "salam, " << ad << "!" << endl;
+}
+int main() {
+    string x;
+    cout << "adi daxil et: ";
+    cin >> x;
+    k(x);
+    return 0;
+}

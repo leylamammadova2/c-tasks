@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+void h(int a) {
+    if (a % 2 == 0)
+        cout << "cutdur" << endl;
+    else
+        cout << "tekdir" << endl;
+}
+int main() {
+    int a;
+    cout << "ededi daxil et: ";
+    cin >> a;
+    h(a);
+    return 0;
+}

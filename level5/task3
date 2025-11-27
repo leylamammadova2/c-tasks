@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+void h(int a, int b) {
+    cout << "cem = " << a + b << endl;
+    cout << "ferq = " << a - b << endl;
+    cout << "hasil = " << a * b << endl;
+    if (b != 0)
+        cout << "bolme = " << a / b << endl;
+    else
+        cout << "bolme = 0-a bolme yoxdur" << endl;
+}
+int main() {
+    int a, b;
+    cout << "ededleri daxil edin: ";
+    cin >> a >> b;
+    h(a, b);
+    return 0;
+}

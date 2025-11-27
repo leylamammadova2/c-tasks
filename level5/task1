@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+void x(int teref) {
+    cout << "perimetr = " << 4 * teref << endl;
+    cout << "sahe = " << teref * teref << endl;
+}
+int main() {
+    int a;
+    cout << "terefi daxil et: ";
+    cin >> a;
+    x(a);
+    return 0;
+}
